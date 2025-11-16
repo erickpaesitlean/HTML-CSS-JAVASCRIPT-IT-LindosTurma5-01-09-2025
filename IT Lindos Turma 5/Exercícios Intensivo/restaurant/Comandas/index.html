@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandas</title>
+</head>
+
+<body>
+    <div>
+        <select id="selectFiltroStatus">
+            <option value="Fechada">Fechada</option>
+            <option value="Aberta">Aberta</option>
+        </select>
+        <button onclick="filtroPorStatus()">Filtrar</button>
+    </div>
+    <div>
+        <button onclick="adicionarNovaComanda()">Adicionar nova comanda</button>
+        <input id="mesaCliente" type="number" placeholder="Número da mesa">
+        <input id="nomeCliente" type="text" placeholder="Nome Cliente">
+        <select name="" id="selectStatus">
+            <option selected>Status</option>
+            <option value="Aberta">Aberta</option>
+            <option value="Encerrada">Encerrada</option>
+        </select>
+        <select id="selectItem">
+            <option selected>Selecionar Itens</option>
+        </select>
+        <input id="quantidadeItem" type="number" placeholder="Quantidade">
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>MESA</th>
+                <th>Cliente</th>
+                <th>STATUS</th>
+                <th>VALOR TOTAL</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+    </table>
+    <div id="containerAddItem" style="display: none;">
+        <select id="selectAddItemComanda">
+            <option selected>Adicione Item Na Comanda</option>
+        </select>
+        <input id="quantidadeNovoItem" type="number" placeholder="Quantidade">
+        <button onclick="adicionarItemNaComanda()">Adicionar</button>
+    </div>
+    <div id="containerRemoveItem">
+        <ul id="listaItemsDaComanda">
+
+        </ul>
+    </div>
+    <div>
+        <a href="../Cardápio/index.html"><button>Cardápio</button></a>
+    </div>
+    <style>
+        body {
+            background-color: rgb(63, 63, 63);
+            color: white;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+
+</html>

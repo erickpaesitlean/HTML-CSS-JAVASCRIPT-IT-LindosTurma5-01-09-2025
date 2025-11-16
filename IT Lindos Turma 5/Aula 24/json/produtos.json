@@ -1,0 +1,74 @@
+{
+  "produtos": [
+    {
+      "id": "10",
+      "nome": "Mesa de Computador",
+      "preco": 399.9,
+      "categoria": "Móveis",
+      "estoque": 8
+    },
+    {
+      "id": "11",
+      "nome": "Estante de Livros",
+      "preco": 329.9,
+      "categoria": "Móveis",
+      "estoque": 10
+    },
+    {
+      "id": "13",
+      "nome": "Relógio de Pulso",
+      "preco": 249.9,
+      "categoria": "Acessórios",
+      "estoque": 20
+    },
+    {
+      "id": "14",
+      "nome": "Boné Estilizado",
+      "preco": 49.9,
+      "categoria": "Acessórios",
+      "estoque": 35
+    },
+    {
+      "id": "15",
+      "nome": "Óculos de Sol",
+      "preco": 149.9,
+      "categoria": "Acessórios",
+      "estoque": 25
+    },
+    {
+      "id": "16",
+      "nome": "Cinto de Couro",
+      "preco": 89.9,
+      "categoria": "Acessórios",
+      "estoque": 30
+    },
+    {
+      "id": "18",
+      "nome": "Caneta Gel Premium",
+      "preco": 9.9,
+      "categoria": "Papelaria",
+      "estoque": 100
+    },
+    {
+      "id": "19",
+      "nome": "Agenda 2025",
+      "preco": 39.9,
+      "categoria": "Papelaria",
+      "estoque": 40
+    },
+    {
+      "id": "d14c",
+      "nome": "joia",
+      "preco": 4444,
+      "categoria": "joias",
+      "estoque": 444
+    },
+    {
+      "id": "091c",
+      "nome": "edede",
+      "preco": 444,
+      "categoria": "rrfrf",
+      "estoque": 555
+    }
+  ]
+}

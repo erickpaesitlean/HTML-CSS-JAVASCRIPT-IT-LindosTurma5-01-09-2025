@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="stylesheet" href="exercicio2.css">
+</head>
+<body>
+    <form action="/">
+        <section class="containerCadastro">
+            <div class="blocoTituloCadastro">
+                <h1 id="tituloPrincipalCadastro">Cadastro</h1>
+            </div>
+            <div class="blocoOptions">
+                <label for="campoNome">Nome</label>
+                <input id="campoNome" class="inputContainer-Cadastro" type="text">
+            </div>
+            <div class="blocoOptions">
+                <label for="campoEmail">Email</label>
+                <input id="campoEmail" class="inputContainer-Cadastro" type="text">
+            </div>
+            <div class="blocoOptions">
+                <label for="campoSenha">Senha</label>
+                <input id="campoSenha" class="inputContainer-Cadastro" type="password">
+            </div>
+            <div class="blocoOptions">
+                <label for="campoDataNascimento">Data de Nascimento</label>
+                <input id="campoDataNascimento" class="inputContainer-Cadastro" type="date">
+            </div>
+            <div class="blocoOptions">
+                <label for="campoTermos">Aceito os termos de uso</label>
+                <input id="campoTermos" type="radio">
+            </div>
+            <div class="blocoOptionsBio">
+                <label for="campoBiografia">Biografia</label>
+                <textarea name="campoBiografia" id="campoBiografia" rows="10"></textarea>
+            </div>
+            <div class="blocoBtnEnviar">
+                <input class="btnAcessos" type="button" value="ENVIAR">
+            </div>
+        </section>
+        <section class="containerPesquisaDeOpniao">
+            <div>
+                <h1 id="tituloPrincipalPesquisa">Pesquisa de Opinião</h1>
+            </div>
+            <div>
+                <p>Como você conheceu o curso?</p>
+                <label for="opcaoIndicacao">Indicação</label>
+                <input name="escolha" id="opcaoIndicacao" type="radio">
+            </div>
+            <div>
+                <label for="opcaoRedesSociais">Redes Sociais</label>
+                <input name="escolha" type="radio" id="opcaoRedesSociais">
+            </div>
+            <div>
+                <label for="opcaoPesquisaGoogle">Pesquisa no Google</label>
+                <input name="escolha" type="radio" id="opcaoPesquisaGoogle">
+            </div>
+            <div>
+                <input class="btnAcessos" type="button" value="ENVIAR">
+            </div>
+        </section>
+        <section class="containerLogin">
+            <div><h1 id="tituloPrincipalLogin">Login</h1></div>
+            <div>
+                <label for="campoEmail">Email</label>
+                <input id="campoEmail" type="email" placeholder="Digite seu Email">
+            </div>
+            <div>
+                <label for="campoSenha">Senha</label>
+                <input id="campoEmail" type="password" placeholder="Digite sua Senha">
+            </div>
+            <div>
+                <input class="btnAcessos" type="button" value="ENTRAR">
+            </div>
+            <div>
+                <input class="btnEsqueciSenha" type="button" value="Esqueci Minha Senha">
+            </div>
+        </section>
+    </form>
+</body>
+</html>

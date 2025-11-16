@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>HTML DOM</h1>
+
+    <section>
+        <div id="primeiraDiv">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates debitis officiis doloribus cum non iure dolore excepturi, reiciendis sint corrupti ullam sequi mollitia! Illo sunt repellendus nulla optio ut neque!
+        </div>
+    </section>
+
+    <hr/>
+
+
+    <section>
+        <h2>Fazer Média</h2>
+        <div>
+            <label for="campoNota1">Nota 1</label>
+            <input type="text" id="campoNota1">
+        </div>
+        <div>
+            <label for="campoNota2">Nota 2</label>
+            <input type="text" id="campoNota2">
+        </div>
+        <button type="button" onclick="mostrarValor()">
+            Fazer a Média
+        </button>
+        <p id="resultadoMedia"></p>
+        <div>
+            <button type="button" onclick="contador()" id="btnClick">Clique Aqui</button>
+            <p>O contador está em: <span id="contador"></span></p>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <style>
+        body{
+            background-color: gray;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>

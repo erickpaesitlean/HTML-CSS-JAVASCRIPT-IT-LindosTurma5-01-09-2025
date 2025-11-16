@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="paginaPrincipal.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cursos</h1>
+        <div class="d-flex gap-2 mb-3 w-50">
+            <select class="form-select" aria-label="Default select example" id="inputMentorNome">
+                <option selected>Selecionar Mentor</option>
+            </select>
+            <button class="btn btn-secondary" onclick="filtrarPorMentor()">Filtrar</button>
+        </div>
+        <div class="d-flex gap-2 w-50">
+            <select class="form-select" aria-label="Default select example" id="inputCategoriaNome">
+                <option selected>Selecionar Categoria</option>
+            </select>
+            <button class="btn btn-secondary" onclick="filtrarPorCategoria()">Filtrar</button>
+        </div>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>TÍTULO</th>
+                    <th>CATEGORIA</th>
+                    <th>MENTOR</th>
+                    <th>PREÇO</th>
+                    <th>CARGA</th>
+                    <th>NÍVEL</th>
+                    <th>EDITAR</th>
+                    <th>EXCLUIR</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+            <tfoot class="text-center" id="rodapeTabela"></tfoot>
+        </table>
+        <div class="d-flex gap-2 mb-3">
+            <button class="btn btn-primary w-50" type="button" onclick="direcionarMentores()">Gerenciar Mentores</button>
+            <button onclick="direcionarGerenciarCategorias()" class="btn btn-primary w-50" type="button">Gerenciar Categorias</button>
+        </div>
+        <div>
+            <button class="btn btn-success w-100" type="button" onclick="criarOuEditar()">Adicionar Novo Curso</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="paginaPrincipal.js"></script>
+</body>
+
+</html>

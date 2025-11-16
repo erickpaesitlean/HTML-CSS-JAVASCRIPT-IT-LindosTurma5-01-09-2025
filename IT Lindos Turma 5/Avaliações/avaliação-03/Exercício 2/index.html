@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Cadastro De Items</h1>
+            <input type="text" placeholder="Insira O Nome Do Item" id="input-nome">
+            <input type="number" placeholder="Insira A Quantidade Disponivel Desse Item" id="input-qnt">
+            <input type="number" placeholder="Insira O Códico Interno Do Item" id="input-codico">
+            <button type="button" onclick="adicionarItemAoInventario()">Adicionar Item Ao Inventário</button>
+            <button type="button" onclick="mostrarItens()">Motrar Todos Os Itens Do Inventário</button>
+        </div>
+        <div id="impressaoItems">
+
+        </div>
+    </section>
+    <style>
+        body{
+            background-color: gray;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            background-color: #192420;
+        }
+        section{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        h1{
+            color: #425F54;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            gap: 10px;
+            align-items: center;
+            background-color: #A8FFDE;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        input{
+            width: 250px;
+            height: 35px;
+            border-radius: 10px;
+            border: none;
+            padding: 5px;
+            background-color: #425F54;
+            color: white;
+        }
+        input::placeholder{
+            color: white;
+        }
+        button{
+            width: 250px;
+            height: 45px;
+            border-radius: 10px;
+            border: none;
+            background-color: #192420;
+            color: white;
+        }
+        button:hover{
+            background-color: #92A69E;
+        }
+        #impressaoItems{
+            display: none;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+</html>

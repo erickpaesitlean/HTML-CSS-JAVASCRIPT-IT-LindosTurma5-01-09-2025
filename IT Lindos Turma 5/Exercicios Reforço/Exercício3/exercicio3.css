@@ -1,0 +1,40 @@
+
+body{
+    background-image: linear-gradient(to right, #191320 , #959595 );
+}
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 0.1px solid white;
+    font-size: 22px;
+    text-align: center;
+    padding: 10px;
+    width: 150px;
+}
+thead,tfoot{
+    background-color: darkslategray;
+    color: white;
+}
+tbody{
+    background-color: rgb(47, 43, 44);
+    color: white;
+}
+td button{
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+td button:hover{
+    background-color: black;
+    transition: 0.7s;
+    color: white;
+    
+}
+
+
+
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTML DINÂMICO</h1>
+    <section class="container">
+        <div>
+            <label for="campoNome">Nome Do Item</label>
+            <input type="text" id="campoNome">
+        </div>
+        <div>
+            <label for="campoQuantidade">Quantidade Do Item</label>
+            <input type="number" id="campoQuantidade">
+        </div>
+        <div>
+            <button type="button" onclick="adicionaNoEstoque()">Adicionar No Estoque</button>
+            <ul id="listaItem"></ul>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

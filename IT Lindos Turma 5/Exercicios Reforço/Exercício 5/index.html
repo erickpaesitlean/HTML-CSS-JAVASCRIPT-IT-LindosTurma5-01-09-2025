@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="containerForm">
+        <form action="/">
+            <div class="contTitulo">
+                <h1>EVENT REGISTRATION FORM</h1>
+            </div>
+            <div id="inputsName">
+                <label for="inputName">Name</label>
+               <div class="inputsNameLayoult">
+                 <input type="text" id="inputName">
+                 <p class="textAcessibilidade">First Name</p>
+               </div>
+               <div class="inputsNameLayoult">
+                 <input type="text" id="inputName">
+                 <p class="textAcessibilidade">Last Name</p>
+               </div>
+            </div>
+            <div id="inputsCompany">
+                <label for="inputCompany">Company</label>
+                <input type="text" id="inputCompany">
+            </div>
+            <div id="inputsEmail">
+                <label for="inputEmail">Email</label>
+                <input type="text" id="inputEmail">
+            </div>
+            <div id="inputsPhone">
+                <label for="inputPhone">Phone</label>
+                <div class="inputsPhoneLayoult">
+                    <input type="number" id="inputNumberCode">
+                    <p class="textAcessibilidade">Area Code</p>
+                </div>
+                <div class="inputsPhoneLayoult">
+                    <input type="number" id="inputNumber">
+                    <p class="textAcessibilidade">Phone Number</p>
+                </div>
+            </div>
+            <div id="inputsSubject">
+                <label for="inputSubject">Subject</label>
+                <select name="options" id="inputSubject">
+                    <option value="objeto-1">Chose Options</option>
+                    <option value="objeto-2">Objeto 2</option>
+                    <option value="objeto-3">Objeto 3</option>
+                    <option value="objeto-4">Objeto 4</option>
+                </select>
+            </div>
+            <div id="inputsYesNo">
+               <label for="opcoes">Are you an existing customer?</label>
+                <div class="inputsYesNoLayoult">
+                    <div class="inputsYesNo">
+                        <input name="opcoes" type="radio" value="Yes">Yes
+                    </div>
+                    <div class="inputsRadio">
+                        <input name="opcoes" type="radio" value="No">No
+                    </div>
+                </div>
+                <button>REGISTER</button>
+            </div>
+           
+        </form>
+    </section>
+</body>
+</html>

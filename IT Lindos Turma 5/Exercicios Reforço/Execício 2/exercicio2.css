@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --corBackground:#2f2c2b;
+    --corBotoes:#d7621a;
+    --fontePrincipal: font-family: "Bebas Neue", sans-serif;
+}
+body{
+    background-color: var(--corBackground);
+}
+.containerCadastro{
+    background-color: var(--corBackground);
+    color: #fd8d32;
+    width: 35%;
+    padding: 10px;
+}
+.inputContainer-Cadastro{
+    background-color: #79451d;
+    border: none;
+    width: 200px;
+}
+.blocoOptions{
+    margin: 10px;
+}
+.blocoOptionsBio{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.blocoBtnEnviar{
+   margin: 10px;
+}
+.btnAcessos{
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--corBotoes);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    color: white;
+}
+.btnEsqueciSenha{
+    width: 155px;
+    height: 25.5px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--corBotoes);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17.5px;
+    color: white;
+}
+#campoBiografia{
+    resize: none;
+    border-radius: 10px;
+    border-color: white;
+}
+#tituloPrincipalLogin,#tituloPrincipalCadastro,#tituloPrincipalPesquisa{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: white;
+}
+.blocoTituloCadastro{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+}
+label,p{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+#campoNome,#campoEmail,#campoSenha,#campoDataNascimento{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+.containerPesquisaDeOpniao{
+    background-color: var(--corBackground);
+    color: white;
+    padding: 15px;
+}
+.containerLogin{
+    background-color: var(--corBackground);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}

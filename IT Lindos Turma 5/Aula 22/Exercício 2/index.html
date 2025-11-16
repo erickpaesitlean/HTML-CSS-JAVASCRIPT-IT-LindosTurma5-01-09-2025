@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="contApresent">
+        <div>
+            <h2>Filtrar Por Categoria</h2>
+            <input type="text" id="categoriaInput">
+            <button onclick="filtrarPorCategoria()">Filtrar</button>
+        </div>
+        <div>
+            <h1 class="text-center">Produtos Vindo Do "Back end falso"<p>Com Json-Server</p></h1>
+            <h2 class="text-center">😀</h2>
+        </div>
+    </div>
+    <table class="table table-dark table-hover w-50">
+        <thead id="cabecaTabela">
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Preço</th>
+            <th>Categoria</th>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+        <tfoot id="rodapeTabela">
+            
+        </tfoot>
+    </table>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0px;
+            gap: 5%;
+            min-height: 100vh;
+        }
+        .contApresent{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+
+</html>

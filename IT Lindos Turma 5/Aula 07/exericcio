@@ -1,0 +1,15 @@
+// Sistema de Verificação de Acesso
+// Crie uma função que verifica se uma pessoa pode acessar um recurso com base 
+// nos seguintes critérios:
+// Idade (deve ser 18 ou mais)
+// Possui assinatura ativa (true/false) sim/nao
+// É funcionário (true/false) sim/nao
+// Dia da semana (acesso liberado apenas de segunda a sexta)
+
+// Outra função deve retornar uma mensagem específica para cada combinação de condições, 
+// incluindo:
+// Acesso permitido para funcionários independentemente de outros critérios
+// Acesso permitido para maiores de 18 anos com assinatura ativa em dias úteis
+// Acesso negado para menores de 18 anos
+// Acesso negado para não assinantes
+// Acesso negado nos finais de semana para não funcionários

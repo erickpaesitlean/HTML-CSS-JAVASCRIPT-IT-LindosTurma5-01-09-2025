@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercicio 1</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9da79ca9d8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>Biblioteca</h1>
+    <div class="containerForm">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"
+          >Título Do Livro</label
+        >
+        <input
+          id="inputTitle"
+          type="text"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label"
+          >Nome Do Autor</label
+        >
+        <input
+          id="inputAuthor"
+          type="text"
+          class="form-control"
+          id="exampleInputPassword1"
+        />
+        <div class="d-grid" id="btnAdd">
+        <button class="btn btn-primary" type="button" onclick="addBook()">
+          Cadastrar <i class="fa-solid fa-book"></i>
+        </button>
+      </div>
+      </div>
+
+      
+    </div>
+    <table class="table table-dark table-striped" id="bodyTableForm">
+      <thead>
+        <tr>
+          <th>Titulo</th>
+          <th>Autor</th>
+          <th>Status</th>
+          <th></th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="bodyTable"></tbody>
+    </table>
+    <script src="script.js"></script>
+  </body>
+</html>

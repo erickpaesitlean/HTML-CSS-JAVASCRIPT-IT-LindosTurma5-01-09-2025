@@ -1,0 +1,166 @@
+{
+  "cardapio": [
+    {
+      "id": "abc1",
+      "nome": "Hambúrguer Clássico",
+      "categoria": "Prato",
+      "preco": 25.9
+    },
+    {
+      "id": "abc2",
+      "nome": "Refrigerante Lata",
+      "categoria": "Bebida",
+      "preco": 6.5
+    },
+    {
+      "id": "abc3",
+      "nome": "Batata Frita",
+      "categoria": "Acompanhamento",
+      "preco": 15
+    },
+    {
+      "id": "abc4",
+      "nome": "Cerveja Long Neck",
+      "categoria": "Bebida",
+      "preco": 12
+    },
+    {
+      "id": "abc5",
+      "nome": "Petit Gâteau",
+      "categoria": "Sobremesa",
+      "preco": 18.5
+    },
+    {
+      "id": "3d34",
+      "nome": "Coxinha",
+      "categoria": "Salgados",
+      "preco": "5.99"
+    }
+  ],
+  "comandas": [
+    {
+      "id": "xyz1",
+      "mesa": 5,
+      "cliente": "Lucas Andrade",
+      "status": "Fechada",
+      "itens": [
+        {
+          "produtoId": "abc1",
+          "quantidade": 2
+        },
+        {
+          "produtoId": "abc1",
+          "quantidade": 5
+        },
+        {
+          "produtoId": "abc3",
+          "quantidade": 3
+        },
+        {
+          "produtoId": "abc3",
+          "quantidade": 3
+        },
+        {
+          "produtoId": "abc5",
+          "quantidade": 3
+        },
+        {
+          "produtoId": "3d34",
+          "quantidade": 4
+        }
+      ]
+    },
+    {
+      "id": "xyz2",
+      "mesa": 3,
+      "cliente": "Marina Costa",
+      "status": "Fechada",
+      "itens": [
+        {
+          "produtoId": "abc4",
+          "quantidade": 3
+        },
+        {
+          "produtoId": "abc5",
+          "quantidade": 1
+        }
+      ]
+    },
+    {
+      "id": "xyz3",
+      "mesa": 2,
+      "cliente": "Erick Ribeiro",
+      "status": "Fechada",
+      "itens": [
+        {
+          "produtoId": "abc3",
+          "quantidade": 5
+        },
+        {
+          "produtoId": "abc5",
+          "quantidade": 2
+        }
+      ]
+    },
+    {
+      "id": "3852",
+      "mesa": "4",
+      "cliente": "Sephora",
+      "status": "Fechada",
+      "itens": [
+        {
+          "produtoId": "abc1",
+          "quantidade": "3"
+        }
+      ]
+    },
+    {
+      "id": "5b59",
+      "mesa": "4",
+      "cliente": "Pedro",
+      "status": "Fechada",
+      "itens": [
+        {
+          "produtoId": "abc1",
+          "quantidade": "3"
+        }
+      ]
+    },
+    {
+      "id": "c2af",
+      "mesa": "8",
+      "cliente": "Vinicius",
+      "status": "Aberta",
+      "itens": [
+        {
+          "produtoId": "abc1",
+          "quantidade": 5
+        }
+      ]
+    },
+    {
+      "id": "7b70",
+      "mesa": "34",
+      "cliente": "Erick",
+      "status": "Aberta",
+      "itens": [
+        {
+          "produtoId": "abc5",
+          "quantidade": "2"
+        }
+      ]
+    },
+    {
+      "id": "4f68",
+      "mesa": "54",
+      "cliente": "ekefne",
+      "status": "Status",
+      "itens": [
+        {
+          "produtoId": "abc1",
+          "quantidade": ""
+        }
+      ]
+    }
+  ]
+}

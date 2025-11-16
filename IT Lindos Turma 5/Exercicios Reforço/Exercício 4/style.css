@@ -1,0 +1,40 @@
+body{
+    background-color: #7955CC;
+}
+.containerTabela{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+table,tr,th{
+    border-collapse: collapse;
+}
+thead{
+    height: 50px;
+    background-color: #362F4B;
+}
+thead th{
+    background-color: #362F4B;
+    color: white;
+}
+td{
+    height: 45px;
+    width: 200px;
+}
+table,th{
+    border-radius: 10px;
+    background-color: #362F4B;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.trCinza{
+    background-color: #F6F6F6;
+}
+.trBranca{
+    background-color: white;
+}
+

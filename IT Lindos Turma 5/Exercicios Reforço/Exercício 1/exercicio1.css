@@ -1,0 +1,41 @@
+body{
+    background-color: #292525;
+    margin: 25vh;
+}
+h1{
+    color: white;
+    font-size: 45px;
+}
+a{
+    color: white;
+}
+.apresent{
+    text-align: center;
+    margin-bottom: 3.5em;
+}
+
+#desc{
+    color: rgba(255, 255, 255, 0.676);
+    font-size: 20px;
+}
+.conteudoPrincipal{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.conteudoText{
+    color: rgba(255, 255, 255, 0.461);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 3.5em;
+
+}
+#btn-click{
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(84, 250, 178, 0.63);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    cursor: pointer;
+}

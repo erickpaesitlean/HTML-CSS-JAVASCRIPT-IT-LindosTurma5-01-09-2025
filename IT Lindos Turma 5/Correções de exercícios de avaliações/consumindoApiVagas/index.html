@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão Exercício 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vagas</h1>
+    <div class="filtrosInputs">
+        <input id="filtroNome" class="form-control me-2" type="text" placeholder="Empresa" aria-label="Search"/>
+        <button onclick="buscarVagaPorEmpresa()" class="btn btn-outline-success" type="button">Buscar</button>
+    </div>
+    <div class="filtrosInputs">
+        <input id="filtroTipo" class="form-control me-2" type="text" placeholder="Tipo Contrato" aria-label="Search"/>
+        <button onclick="buscarVagaPorTipo()" class="btn btn-outline-success" type="button">Buscar</button>
+    </div>
+    <div class="filtrosInputs">
+        <input id="nomeEmpresa" class="form-control me-2" type="text" placeholder="Nome Empresa" aria-label="Search"/>
+        <input id="tipoContrato" class="form-control me-2" type="text" placeholder="Tipo Contrato" aria-label="Search"/>
+        <button onclick="buscarPorNomeEtipo()" class="btn btn-outline-success" type="button">Buscar</button>
+    </div>
+    <div class="containerVagas">
+        <table id="tabelaVagas" class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Cargo</th>
+                    <th>Empresa</th>
+                    <th>Salário</th>
+                    <th>Tipo de contratação</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+            <tfoot id="rodapeTabela"></tfoot>
+        </table>
+    </div>
+        <div id="candidatos">
+        </div>
+    <script src="vagas.js"></script>
+</body>
+</html>

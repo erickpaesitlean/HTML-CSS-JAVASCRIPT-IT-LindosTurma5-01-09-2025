@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exerc[icio 1</title>
+</head>
+
+<body>
+    <section>
+        <h1>Criar Chamado
+        </h1>
+        <div>
+            <label for="tituloValor">Título</label>
+            <input type="text" id="tituloValor">
+        </div>
+        <div>
+            <label for="descValor">Descrição</label>
+            <input type="text" id="descValor">
+        </div>
+        <div>
+            <label for="responsavelValor">Responsável</label>
+            <input type="text" id="responsavelValor">
+        </div>
+        <button onclick="criarChamado()">Criar Chamado</button>
+        <p id="contadoresEtapas"></p>
+        <table>
+            <thead>
+                <th>Título</th>
+                <th>Descrição</th>
+                <th>Responsável</th>
+                <th>Etapa Atual</th>
+                <th></th>
+                <td></td>
+            </thead>
+            <tbody id="corpoTabela">
+
+            </tbody>
+        </table>
+    </section>
+    <style>
+        .vermelho{
+            color: red;
+        }
+    </style>
+    <script src="script.js"></script>
+</body>
+
+</html>

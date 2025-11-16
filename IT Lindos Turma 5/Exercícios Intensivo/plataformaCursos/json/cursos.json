@@ -1,0 +1,105 @@
+{
+  "categorias": [
+    {
+      "id": "abc1",
+      "nome": "Programação"
+    },
+    {
+      "id": "abc2",
+      "nome": "Design"
+    },
+    {
+      "id": "abc3",
+      "nome": "Marketing"
+    },
+    {
+      "nome": "Negócios Doidos",
+      "id": "abc4"
+    },
+    {
+      "id": "4181",
+      "nome": "Elétrica"
+    },
+    {
+      "id": "185e",
+      "nome": "OOOOOOOOOOOOOOOOOOO"
+    }
+  ],
+  "mentores": [
+    {
+      "id": "xyz1",
+      "nome": "Carlos Silva",
+      "especialidade": "JavaScript",
+      "email": "carlos@cursos.com",
+      "experiencia": 6
+    },
+    {
+      "id": "xyz2",
+      "nome": "Ana Ribeiro",
+      "especialidade": "Design UI/UX",
+      "email": "ana@cursos.com",
+      "experiencia": 4
+    },
+    {
+      "nome": "Pedro",
+      "especialidade": "NodeJS",
+      "email": "pedrolima@itlean.com.br",
+      "experiencia": "1",
+      "id": "xyz3"
+    },
+    {
+      "nome": "eferegr",
+      "especialidade": "regregeg",
+      "email": "regreg",
+      "experiencia": "1",
+      "id": "cd59"
+    }
+  ],
+  "cursos": [
+    {
+      "id": "vwq1",
+      "titulo": "JavaScript para Iniciantes",
+      "categoriaId": "abc1",
+      "mentorId": "xyz1",
+      "preco": 199.9,
+      "cargaHoraria": 20,
+      "nivel": "Iniciante"
+    },
+    {
+      "titulo": "NodeJS",
+      "categoriaId": "abc1",
+      "mentorId": "xyz3",
+      "preco": "34",
+      "cargaHoraria": "44",
+      "nivel": "Avançado",
+      "id": "d52e"
+    },
+    {
+      "id": "f865",
+      "titulo": "Liderança",
+      "categoriaId": "abc4",
+      "mentorId": "xyz1",
+      "preco": "344",
+      "cargaHoraria": "33",
+      "nivel": "Iniciante"
+    },
+    {
+      "id": "00de",
+      "titulo": "Didática para aluonos",
+      "categoriaId": "abc4",
+      "mentorId": "30d3",
+      "preco": "10",
+      "cargaHoraria": "5",
+      "nivel": "Iniciante"
+    },
+    {
+      "titulo": "espanhol",
+      "categoriaId": "abc3",
+      "mentorId": "xyz1",
+      "preco": "122",
+      "cargaHoraria": "20",
+      "nivel": "Avançado",
+      "id": "6dc1"
+    }
+  ]
+}

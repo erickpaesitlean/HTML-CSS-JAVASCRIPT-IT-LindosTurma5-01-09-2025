@@ -1,0 +1,123 @@
+{
+  "departamentos": [
+    {
+      "id": "abc1",
+      "nome": "Tecnologia",
+      "local": "São Paulo"
+    },
+    {
+      "id": "abc2",
+      "nome": "Recursos Humanos",
+      "local": "Rio de Janeiro"
+    },
+    {
+      "nome": "Financeiro",
+      "local": "Minas Gerais",
+      "id": "abc3"
+    },
+    {
+      "nome": "Gente",
+      "local": "Faria Lima",
+      "id": "9575"
+    },
+    {
+      "id": "49a8",
+      "nome": "Marketing",
+      "local": "Santo Amaro"
+    },
+    {
+      "nome": "Comercial",
+      "local": "Santo Andre",
+      "id": "0f50"
+    },
+    {
+      "nome": "Limpeza",
+      "local": "SP",
+      "id": "9ceb"
+    },
+    {
+      "nome": "Tecnicos",
+      "local": "Morumbi",
+      "id": "ca77"
+    }
+  ],
+  "funcionarios": [
+    {
+      "nome": "Ana Martins",
+      "cargo": "Desenvolvedora",
+      "salario": 6000,
+      "departamentoId": "abc3",
+      "id": "xyz1"
+    },
+    {
+      "id": "xyz2",
+      "nome": "Bruno Souza",
+      "cargo": "Analista de RH",
+      "salario": 4200,
+      "departamentoId": "abc2"
+    },
+    {
+      "id": "xyz3",
+      "nome": "Clara Lima",
+      "cargo": "Contadora",
+      "salario": 5000,
+      "departamentoId": "abc3"
+    },
+    {
+      "id": "xyz4",
+      "nome": "Diego Ferreira",
+      "cargo": "Tech Lead",
+      "salario": 8500,
+      "departamentoId": "abc1"
+    },
+    {
+      "nome": "Erick Chagas",
+      "cargo": "IT Lindo",
+      "salario": "2000",
+      "departamentoId": "abc1",
+      "id": "b943"
+    },
+    {
+      "nome": "Theo Pereira",
+      "cargo": "IT Lindo",
+      "salario": "2000",
+      "departamentoId": "abc1",
+      "id": "1fcb"
+    },
+    {
+      "id": "aa71",
+      "nome": "Pedro",
+      "cargo": "IT Lindo",
+      "salario": 2000,
+      "departamentoId": "abc1"
+    },
+    {
+      "nome": "Sephora",
+      "cargo": "IT Lindo",
+      "salario": 2000,
+      "departamentoId": "abc2",
+      "id": "5bdd"
+    },
+    {
+      "nome": "Victor",
+      "cargo": "IT Lindo",
+      "salario": 2000,
+      "departamentoId": "abc2",
+      "id": "1f19"
+    },
+    {
+      "nome": "Lucão",
+      "cargo": "IT Lindo",
+      "salario": 2000,
+      "departamentoId": "9575",
+      "id": "9129"
+    },
+    {
+      "id": "0165",
+      "nome": "Pedro Lima",
+      "cargo": "Gestor de produção",
+      "salario": 15000,
+      "departamentoId": "abc1"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "vagas": [
+    {
+      "id": "yhu7",
+      "titulo": "Desenvolvedor Back End Pleno",
+      "motivo": "Aumento de demanda por conta de novos projetos fechados",
+      "requisitos": [
+        "3 anos de experiência com Angular CLI",
+        "Conhecimento de Observables e Rxjs",
+        "Conhecimento em requisições de API Rest",
+        "Experiência em criação de documentações"
+      ],
+      "quantidade": 2,
+      "aprovacao": "Pendente",
+      "gestorId": "u651",
+      "dataSolicitacao": "2025-10-28T15:30:00.000Z"
+    },
+    {
+      "id": "abc9",
+      "titulo": "Desenvolvedor Front End Sênior",
+      "motivo": "Substituição de colaborador e expansão do time de UX",
+      "requisitos": [
+        "5 anos de experiência com React ou Angular",
+        "Domínio de TypeScript e boas práticas de componentização",
+        "Conhecimento em testes automatizados (Jest, Cypress)",
+        "Experiência com integração de APIs e design system"
+      ],
+      "quantidade": 3,
+      "aprovacao": "Aprovado",
+      "gestorId": "u902",
+      "dataSolicitacao": "2025-11-06T09:15:00.000Z"
+    },
+    {
+      "titulo": "Analista de Impeditivos",
+      "motivo": "",
+      "requisitos": [
+        "Ensino Médio",
+        "Graduação"
+      ],
+      "quantidade": 1,
+      "aprovacao": "Pendente",
+      "gestorId": "e8e5",
+      "dataSolicitacao": "2025-11-11T14:04:17.351Z",
+      "id": "3ebb"
+    },
+    {
+      "id": "dfa2",
+      "titulo": "Back Office",
+      "motivo": "Alta Demandar",
+      "requisitos": [
+        "Ensino Médio",
+        "Graduação"
+      ],
+      "quantidade": "2",
+      "aprovacao": "Pendente",
+      "gestorId": "u651",
+      "dataSolicitacao": "2025-11-11T18:23:01.710Z"
+    }
+  ],
+  "gestor": [
+    {
+      "id": "u651",
+      "nome": "Anderson Dias",
+      "email": "anderson.dias@itlean.com.br",
+      "cargo": "Gerente de delivery",
+      "departamentoId": "k76i"
+    },
+    {
+      "id": "j81b",
+      "nome": "Samanta Padilha",
+      "email": "samanta.padilha@itlean.com.br",
+      "cargo": "Gerente de gente e gestão",
+      "departamentoId": "i90v"
+    },
+    {
+      "id": "u902",
+      "nome": "Bira Padilha",
+      "email": "bira.padilha@itlean.com.br",
+      "cargo": "CEO",
+      "departamentoId": "i90v"
+    },
+    {
+      "id": "e8e5",
+      "nome": "Theo Pereira",
+      "email": "theotheo@itlean.com",
+      "cargo": "IT Lindo",
+      "departamentoId": "96fa"
+    },
+    {
+      "id": "8420",
+      "nome": "Leo",
+      "email": "leoleo@itlean.com",
+      "cargo": "IT Lindo",
+      "departamentoId": "de44"
+    },
+    {
+      "id": "8d35",
+      "nome": "Leo",
+      "email": "leoeleoel@itlean.com",
+      "cargo": "Marketing",
+      "departamentoId": "96fa"
+    },
+    {
+      "id": "def6",
+      "nome": "Erick",
+      "email": "erick.paes@itlean.com",
+      "cargo": "IT Lindo",
+      "departamentoId": "k76i"
+    },
+    {
+      "id": "f738",
+      "nome": "Theo",
+      "email": "tt@itlean.com",
+      "cargo": "IT Lindo",
+      "departamentoId": "i90v"
+    },
+    {
+      "id": "e9e6",
+      "nome": "Sasa",
+      "email": "sasa",
+      "cargo": "Sasa gestora",
+      "departamentoId": "Comercial"
+    },
+    {
+      "id": "ade8",
+      "nome": "Matheus Pinheiro",
+      "email": "matheus.pinheiro@itlean.com",
+      "cargo": "Professor",
+      "departamentoId": "Operação"
+    },
+    {
+      "id": "60cf",
+      "nome": "Erika Souza",
+      "email": "erikajoias@itlean.com",
+      "cargo": "Analista RH",
+      "departamentoId": "Gente"
+    }
+  ],
+  "departamento": [
+    {
+      "id": "i90v",
+      "departamento": "Gente"
+    },
+    {
+      "id": "k76i",
+      "departamento": "Operação"
+    },
+    {
+      "id": "96fa",
+      "departamento": "Dados Analityc"
+    },
+    {
+      "id": "de44",
+      "departamento": "Financeiro"
+    },
+    {
+      "id": "3278",
+      "departamento": "Comercial"
+    },
+    {
+      "id": "53a0",
+      "departamento": "Financeiro"
+    },
+    {
+      "id": "4ed9",
+      "departamento": "Grupo BGB"
+    }
+  ]
+}

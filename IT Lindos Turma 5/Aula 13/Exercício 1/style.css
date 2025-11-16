@@ -1,0 +1,32 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    align-items: center;
+}
+#resultadoOk{
+    width: 350px;
+    font-size: 20px;
+}
+h1{
+    color: white;
+}
+input{
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    width: 350px;
+}
+button{
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    width: 350px;
+}
+span{
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mb-3">Gerenciar Categorias</h1>
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>NOME</th>
+                    <th>EDITAR</th>
+                    <th>DELETAR</th>
+                </tr>
+            </thead>
+            <tbody id="corpoTabela"></tbody>
+        </table>
+    </div>
+    <div>
+        <div class="input-group mb-3">
+            <input id="inputNomeCategoria" type="text" class="form-control" placeholder="Categoria"
+                aria-label="Categoria" aria-describedby="basic-addon1">
+            <button class="btn btn-success" onclick="criarOuEditarCategoria()">Ação</button>
+        </div>
+        <button class="btn btn-warning " onclick="voltarPagina()">Voltar Página</button>
+
+    </div>
+    <script src="gerenciarCategorias.js"></script>
+</body>
+
+</html>

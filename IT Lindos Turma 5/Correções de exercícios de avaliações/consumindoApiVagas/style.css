@@ -1,0 +1,28 @@
+body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+                min-height: 100vh;
+                gap: 20px;
+            }
+            #candidatos{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                gap: 20px;
+                padding: 20px;
+                max-width: 60%;
+            }
+            .containerVagas{
+                max-width: 60%;
+                max-height: 300px;
+                overflow-y: scroll;
+            }
+            .filtrosInputs{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }

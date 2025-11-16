@@ -1,0 +1,10 @@
+{
+    "nome": "Erick Ribeiro",
+    "idade": 20,
+    "endereco": {
+        "rua": "Prestes Maia",
+        "numero": 222
+    },
+    "skils": []
+
+}

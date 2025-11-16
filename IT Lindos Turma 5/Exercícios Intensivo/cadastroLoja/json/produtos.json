@@ -1,0 +1,78 @@
+{
+  "categorias": [
+    {
+      "id": "abc1",
+      "nome": "Camisetas"
+    },
+    {
+      "id": "abc2",
+      "nome": "Calças"
+    },
+    {
+      "id": "abc4",
+      "nome": "Jaquetas"
+    },
+    {
+      "nome": "Diversos",
+      "id": "abc5"
+    },
+    {
+      "nome": "Joias",
+      "id": "a05c"
+    },
+    {
+      "id": "763d",
+      "nome": "Eletronicos"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "35f4",
+      "nome": "Moletom Nike",
+      "categoriaId": "abc4",
+      "preco": "59.99",
+      "tamanho": "GG",
+      "estoque": "132"
+    },
+    {
+      "id": "264f",
+      "nome": "Meias",
+      "categoriaId": "abc5",
+      "preco": "10.00",
+      "tamanho": "12",
+      "estoque": "5"
+    },
+    {
+      "id": "efbd",
+      "nome": "Botas",
+      "categoriaId": "abc5",
+      "preco": "145.99",
+      "tamanho": "43",
+      "estoque": "8"
+    },
+    {
+      "nome": "Chinelo havaianas",
+      "categoriaId": "abc5",
+      "preco": "55",
+      "tamanho": "39",
+      "estoque": "12",
+      "id": "f0e2"
+    },
+    {
+      "nome": "Tablet Samsumg",
+      "categoriaId": "a05c",
+      "preco": "2999",
+      "tamanho": "20x18",
+      "estoque": "3",
+      "id": "361d"
+    },
+    {
+      "id": "bcbc",
+      "nome": "Bota",
+      "categoriaId": "abc5",
+      "preco": "211",
+      "tamanho": "40",
+      "estoque": "12"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "pessoas": [
+    { "id": 1, "nome": "Ana Souza", "email": "ana.souza@email.com", "telefone": "(11) 99999-1111", "cep": "01001-000" },
+    { "id": 2, "nome": "Bruno Lima", "email": "bruno.lima@email.com", "telefone": "(11) 98888-2222", "cep": "20010-000" },
+    { "id": 3, "nome": "Carla Martins", "email": "carla.martins@email.com", "telefone": "(21) 97777-3333", "cep": "30130-010" },
+    { "id": 4, "nome": "Daniel Oliveira", "email": "daniel.oliveira@email.com", "telefone": "(31) 96666-4444", "cep": "40010-000" },
+    { "id": 5, "nome": "Eduarda Costa", "email": "eduarda.costa@email.com", "telefone": "(41) 95555-5555", "cep": "80010-000" },
+    { "id": 6, "nome": "Felipe Moreira", "email": "felipe.moreira@email.com", "telefone": "(51) 94444-6666", "cep": "90010-000" },
+    { "id": 7, "nome": "Gabriela Freitas", "email": "gabriela.freitas@email.com", "telefone": "(61) 93333-7777", "cep": "70040-010" },
+    { "id": 8, "nome": "Henrique Tavares", "email": "henrique.tavares@email.com", "telefone": "(71) 92222-8888", "cep": "40020-000" },
+    { "id": 9, "nome": "Isabela Ribeiro", "email": "isabela.ribeiro@email.com", "telefone": "(81) 91111-9999", "cep": "50010-000" },
+    { "id": 10, "nome": "João Pedro", "email": "joao.pedro@email.com", "telefone": "(91) 90000-0000", "cep": "66010-000" }
+  ]
+}

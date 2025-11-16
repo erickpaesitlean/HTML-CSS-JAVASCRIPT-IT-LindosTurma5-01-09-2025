@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <h2>Adicionar Tarefa</h2>
+      <div>
+        <input type="text" id="titleTask" placeholder="Insira o titulo da tarefa"/>
+      </div>
+      <div>
+        <input type="text" id="descriptionTask" placeholder="Insira a descrição da tarefa">
+      </div>
+      <button type="button" onclick="addTask()">Adicionar Tarefa Na Lista</button>
+    </section>
+    <section>
+        <table>
+            <thead>
+            <th>Título</th>
+            <th>Descrição</th>
+            <th>Status</th>
+        </thead>
+        <tbody id="bodyTableTasks"></tbody>
+        <div>
+          <p id="concluidas">Tarefas concluidas: <span id="span-concluida"></span></p>
+        <p id="pendentes">Tarefas pendentes: <span id="span-pendente"></span></p>
+        <p>Tarefas totais: <span id="span-total"></span></p>
+        </div>
+        </table>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

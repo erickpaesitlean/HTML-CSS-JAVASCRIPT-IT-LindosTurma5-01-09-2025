@@ -1,0 +1,58 @@
+{
+  "departamentos": [
+    {
+      "id": "abc1",
+      "nome": "Tecnologia",
+      "local": "São Paulo"
+    },
+    {
+      "id": "abc2",
+      "nome": "Recursos Humanos",
+      "local": "Rio de Janeiro"
+    }
+  ],
+  "funcionarios": [
+    {
+      "id": "1",
+      "nome": "Ana Martins",
+      "cargo": "Desenvolvedora",
+      "salario": 6000,
+      "departamentoId": "abc1"
+    },
+    {
+      "id": "2",
+      "nome": "Bruno Souza",
+      "cargo": "Analista de RH",
+      "salario": 4200,
+      "departamentoId": "abc2"
+    },
+    {
+      "id": "4",
+      "nome": "Diego Ferreira",
+      "cargo": "Tech Lead",
+      "salario": 8500,
+      "departamentoId": "abc1"
+    },
+    {
+      "id": "14be",
+      "nome": "Erick",
+      "cargo": "Trainee",
+      "salario": "2000",
+      "departamentoId": "abc1"
+    },
+    {
+      "id": "10fc",
+      "nome": "Leo",
+      "cargo": "Trainee",
+      "salario": "2000",
+      "departamentoId": "abc1"
+    },
+    {
+      "id": "0b41",
+      "nome": "Pedro",
+      "cargo": "Suporte",
+      "salario": "3000",
+      "departamentoId": "abc1"
+    }
+  ]
+}

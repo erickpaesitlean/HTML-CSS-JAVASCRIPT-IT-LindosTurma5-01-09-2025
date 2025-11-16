@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="aula2.css">
+</head>
+<body>
+    <section class="container-formulario">
+        <form action="/">
+            <div class="titulo-principal">
+                <h1>Aula de Inputs</h1>
+            </div>
+            <div>
+                <labe id="labelCampos"l for="campoNome">Nome</label>
+                <input id="campoNome" type="text">
+            </div>
+            <div>
+                <label id="labelCampos" for="campoEmail">Email</label>
+                <input id="campoEmail" type="">
+            </div>
+            <div>
+                <label id="labelCampos" for="campoSenha">Senha</label>
+                <input id="campoSenha" type="password">
+            </div>
+            <div>
+                <label id="labelCampos" for="campoData">Data</label>
+                <input id="campoData" type="date">
+            </div>
+            <div>
+                <label id="labelCampos" for="campoDesc" aria-placeholder="Descrição"></label>
+                <textarea name="" id="campoDesc" rows="10">Insira uma Descrição</textarea>
+            </div>
+            <div class="container-transportes">
+                <p id="titulo-transporte">Selecione um transporte</p>
+                <div class="container-tipo-transporte">
+                    <input name="transporte" type="radio">
+                    <label id="labelCampos" for="opcaoMoto">Moto</label>
+                </div>
+                <div class="container-tipo-transporte">
+                    <input name="transporte" type="radio">
+                    <label id="labelCampos" for="opcaoCarro">Carro</label>
+                </div>
+                <div class="container-tipo-transporte">
+                    <input name="transporte" type="radio">
+                    <label id="labelCampos" for="opcaoBicicleta">Bicicleta</label>
+                </div>
+                <div>
+                    <label for="campoIdade">Idade</label>
+                    <input id="campoIdade" type="number" max="120" min="0">
+                </div>
+                <div>
+                    <label for="campoCEP">CEP</label>
+                    <input id="campoCEP" type="text" maxlength="9">
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
+</html>

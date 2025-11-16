@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <input id="inputUnidade" type="text" placeholder="Buscar por unidade">
+    <button onclick="buscarPorUnidade()">Buscar</button>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Unidade</th>
+                <th>percentualComissao</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+    </table>
+    <h2>Vendas por vendedor</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Vendedor ID</th>
+                <th>Valor Venda</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabelaVendas"></tbody>
+        <tfoot id="rodapeTabela"></tfoot>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input id="inputNome" type="text" placeholder="Nome">
+        <input id="inputPreco" type="number" placeholder="Preço">
+        <input id="inputCategoria" type="text" placeholder="Categoria">
+        <input id="inputEstoque" type="number" placeholder="Estoque">
+        <button onclick="criaProduto()">Adicionar</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NOME</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+                <th>Estoque</th>
+            </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
