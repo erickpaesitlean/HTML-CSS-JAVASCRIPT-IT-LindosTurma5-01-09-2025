@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5em;
+}
+header{
+    background-color: #6268D7;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+.Blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.CompartilharIdeia{
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px;
+    gap: 15px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0px 15px 1px #EDEFF2; 
+    box-shadow: 5px 0px 15px 1px #EDEFF2;
+}
+.CompartilharIdeia h2,.ContainerComentario h4{
+    color: #4E54C8;
+}
+.CompartilharIdeia button{
+    background: #5359CC;
+    background: linear-gradient(90deg,rgba(83, 89, 204, 1) 0%, rgba(156, 142, 250, 1) 100%);
+    padding: 13px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+#text-area-ideia{
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid #E0E0E0;
+}
+.ContainerComentarios{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    width: 100%;
+}
+.ContainerComentario{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    -webkit-box-shadow: 5px 0px 15px 1px #EDEFF2; 
+    box-shadow: 5px 0px 15px 1px #EDEFF2;
+    border-radius: 10px;
+}
+.ContainerComentario button{
+    padding: 9px;
+    background-color: transparent;
+    border: 2px solid #4E54C8;
+    border-radius: 20px;
+
+}
+.ContainerComentario button:hover{
+    background-color: #4E54C8;
+    border: white;
+    color: white;
+    transition: 0.5s;
+}
+.vistoOnline{
+    color: #ABAAAB;
+}
+.Perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen and (max-width:600px) {
+    .ContainerComentario button{
+    padding: 5px;
+}
+    .BotoesComentario{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
